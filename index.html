@@ -1,66 +1,399 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>KING KINGDOM | Construction Material Supplier</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="King Kingdom – Cement, TMT Steel, Sand, Gitti & all construction materials supplier">
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>King Kingdom | Building Materials Supplier</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
 
-<!-- ===== NAVBAR ===== -->
-<header class="navbar">
-  <div class="logo">
-    <img src="images/logo.png" alt="King Kingdom Logo">
-    <span>KING KINGDOM</span>
+<body id="top">
+
+  <!-- Top Bar -->
+  <div class="topbar">
+    <div class="container topbar-grid">
+      <div class="topbar-left">
+        <span>📍 Industrial Area, Sujangarh, Churu, Rajasthan 331507</span>
+      </div>
+      <div class="topbar-right">
+        <a href="tel:+917734920728">📞 +91 7734920728</a>
+        <a href="mailto:kk5912618@gmail.com">✉ kk5912618@gmail.com</a>
+      </div>
+    </div>
   </div>
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#gallery">Gallery</a>
-    <a href="#contact">Contact</a>
-  </nav>
-</header>
 
-<!-- ===== HERO ===== -->
-<section id="home" class="hero">
-  <h1>Legend Legacy in Construction</h1>
-  <p>Best Quality Construction Materials | On Time Delivery</p>
-  <a href="#contact" class="btn">Get Quote</a>
-</section>
+  <!-- Navbar -->
+  <header class="header">
+    <nav class="container nav">
+      <a class="brand" href="#top">
+        <span class="brand-mark">KK</span>
+        <div class="brand-text">
+          <h1>King Kingdom</h1>
+          <p>All Types of Building Material Suppliers</p>
+        </div>
+      </a>
 
-<!-- ===== GALLERY ===== -->
-<section id="gallery" class="gallery">
-  <h2>Our Product Gallery</h2>
-  <div class="gallery-grid">
-    <img src="images/g1.jpg" onclick="openLightbox(this.src)">
-    <img src="images/g2.jpg" onclick="openLightbox(this.src)">
-    <img src="images/g3.jpg" onclick="openLightbox(this.src)">
-    <img src="images/g4.jpg" onclick="openLightbox(this.src)">
-    <img src="images/g5.jpg" onclick="openLightbox(this.src)">
-    <img src="images/g6.jpg" onclick="openLightbox(this.src)">
-  </div>
-</section>
+      <button class="menu-btn" id="menuBtn" aria-label="Open Menu">☰</button>
 
-<!-- ===== LIGHTBOX ===== -->
-<div id="lightbox" onclick="closeLightbox()">
-  <img id="lightbox-img">
-</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#materials">Materials</a></li>
+        <li><a href="#why">Why Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <a class="btn btn-small" href="https://wa.me/917734920728" target="_blank">
+            WhatsApp
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
-<!-- ===== CONTACT ===== -->
-<section id="contact" class="contact">
-  <h2>Contact Us</h2>
-  <p>📞 Call / WhatsApp: <b>+91 XXXXXXXXXX</b></p>
-  <p>📍 Location: Karnataka, India</p>
-  <a class="btn" href="https://wa.me/91XXXXXXXXXX" target="_blank">WhatsApp Now</a>
-</section>
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-left reveal">
+        <div class="pill">
+          <span class="dot"></span>
+          Premium Quality • Trusted Supplier • Fast Delivery
+        </div>
 
-<!-- ===== FOOTER ===== -->
-<footer>
-  <img src="images/logo.png">
-  <p>© 2026 KING KINGDOM | All Rights Reserved</p>
-</footer>
+        <h2>
+          Building Materials Supplier <br />
+          in India <span class="accent">with Genuine Quality & Best Prices </span>
+        </h2>
 
-<script src="script.js"></script>
+        <p>
+          King Kingdom supplies all types of Building materials for residential, commercial and industrial construction.
+          Trusted supplier in India with quick response & we focus on genuine quality, fair pricing, and timely delivery.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn" href="#contact">Get a Quick Quote</a>
+          <a class="btn btn-outline" href="tel:+917734920728">Call Now</a>
+        </div>
+
+        <div class="trust-row">
+          <div class="trust">
+            <h4>✔ Premium Quality Materials</h4>
+            <p> We supply genuine construction materials for long term strength and Stylies projects.</p>
+          </div>
+          <div class="trust">
+            <h4>🚚 Fast Delivery Support </h4>
+            <p>Quick Service & Support for your Dreams Projects .</p>
+          </div>
+          <div class="trust">
+            <h4>💬 WhatsApp Support</h4>
+            <p>Quick Quote Directly on WhatsApp & Easy ordering.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-right reveal">
+        <div class="hero-card">
+          <h3>Contact Details</h3>
+
+          <div class="hero-contact">
+            <div class="hc">
+              <span>Company</span>
+              <strong>King Kingdom</strong>
+            </div>
+
+            <div class="hc">
+              <span>Contact Person</span>
+              <strong>Krishan Kumar Sharma</strong>
+            </div>
+
+            <div class="hc">
+              <span>Mobile / WhatsApp</span>
+              <a href="tel:+917734920728"><strong>7734920728</strong></a>
+            </div>
+
+            <div class="hc">
+              <span>Email</span>
+              <a href="mailto:kk5912618@gmail.com"><strong>kk5912618@gmail.com</strong></a>
+            </div>
+
+            <div class="hc">
+              <span>Location</span>
+              <strong>Industrial Area, Sujangarh</strong>
+            </div>
+          </div>
+
+          <div class="hero-cta">
+            <a class="btn full" href="https://wa.me/917734920728" target="_blank">Chat on WhatsApp</a>
+            <a class="btn btn-outline full" href="#contact">Request a Quote</a>
+          </div>
+
+          <div class="mini-stats">
+            <div class="ms">
+              <h4>Best</h4>
+              <p>Rates</p>
+            </div>
+            <div class="ms">
+              <h4>Fast</h4>
+              <p>Delivery</p>
+            </div>
+            <div class="ms">
+              <h4>100%</h4>
+              <p>Trusted</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>About King Kingdom</h2>
+        <p>
+          We provide complete Building materials supply with a Genuine and Professional approach.
+          We focusing in Quality assurance, Transparency and fast delivery service.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card reveal">
+          <h3>🏗 Complete Supply</h3>
+          <p>All types of building materials available for residential, commercial & industrial construction sites.</p>
+        </div>
+
+        <div class="card reveal">
+          <h3>🤝 Trusted Service</h3>
+          <p>We believe in long-term trust, customer satisfaction, fair pricing and genuine supply.</p>
+        </div>
+
+        <div class="card reveal">
+          <h3>🚚 Fast Delivery service</h3>
+          <p>Fast delivery in nearby locations (subject to order & availability).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Materials -->
+  <section class="section section-alt" id="materials">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Materials We Supply</h2>
+        <p>
+          Wide range of construction materials — quality, genuine and reliable.
+        </p>
+      </div>
+
+      <div class="grid-3">
+        <div class="card reveal">
+          <h3>🧱 Bricks & Blocks</h3>
+          <p>Red bricks, fly ash bricks, concrete blocks, and more.</p>
+        </div>
+
+        <div class="card reveal">
+          <h3>🪨 Sand & Aggregates</h3>
+          <p>River sand, crushed sand, bajri, aggregates and stones.</p>
+        </div>
+
+        <div class="card reveal">
+          <h3>🏗 Cement & Addesive</h3>
+          <p>Quality cement and adhesive supply for strong and durable construction.</p>
+        </div>
+
+        <div class="card reveal">
+          <h3>🔩 Steel & Iron</h3>
+          <p>TMT bars, steel rods, iron materials and related items.</p>
+        </div>
+
+        <div class="card reveal">
+          <h3>🚰 Pipes & Electric Fittings</h3>
+          <p>Plumbing materials, Electric fittings, pipes and accessories.</p>
+        </div>
+
+        <div class="card reveal">
+          <h3>🏠 All Types Construction Materials</h3>
+          <p>Everything needed for complete building material supply.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section class="section" id="why">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Why Choose Us</h2>
+        <p>
+          A professional supply service trusted by builders,contractor and customers.
+        </p>
+      </div>
+
+      <div class="grid-4">
+        <div class="why-card reveal">
+          <h3>✅ Genuine Quality</h3>
+          <p>We focus on quality materials and trusted sourcing.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <h3>💰 Best Pricing</h3>
+          <p>Fair and transparent pricing for all customers.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <h3>🚚 On-Time Delivery</h3>
+          <p>We prioritize quick and timely delivery service.</p>
+        </div>
+
+        <div class="why-card reveal">
+          <h3>📞 Quick Response</h3>
+          <p>Call or WhatsApp us anytime for quick support.</p>
+        </div>
+      </div>
+
+      <div class="cta-strip reveal">
+        <div>
+          <h3>Need building materials supply today?</h3>
+          <p>Contact us on WhatsApp for quick quote & availability.</p>
+        </div>
+        <a class="btn" href="https://wa.me/917734920728" target="_blank">WhatsApp Now</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <h2>Contact</h2>
+        <p>
+          Get a quick quote, ask availability, or place your order.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-card reveal">
+          <h3>Business Details</h3>
+
+          <div class="contact-list">
+            <div class="ci">
+              <span>Company</span>
+              <strong>King Kingdom</strong>
+            </div>
+
+            <div class="ci">
+              <span>Contact Person</span>
+              <strong>Krishan Kumar Sharma</strong>
+            </div>
+
+            <div class="ci">
+              <span>Mobile / WhatsApp</span>
+              <a href="tel:+917734920728"><strong>7734920728</strong></a>
+            </div>
+
+            <div class="ci">
+              <span>Email</span>
+              <a href="mailto:kk5912618@gmail.com"><strong>kk5912618@gmail.com</strong></a>
+            </div>
+
+            <div class="ci">
+              <span>Address</span>
+              <strong>Industrial Area, Sujangarh, Churu, Rajasthan 331507</strong>
+            </div>
+          </div>
+
+          <div class="contact-actions">
+            <a class="btn full" href="https://wa.me/917734920728" target="_blank">WhatsApp Now</a>
+            <a class="btn btn-outline full" href="tel:+917734920728">Call Now</a>
+          </div>
+        </div>
+
+        <div class="form-card reveal">
+          <h3>Request a Quote</h3>
+
+          <form id="contactForm">
+            <div class="form-row">
+              <label>Your Name</label>
+              <input type="text" id="name" placeholder="Enter your name" required />
+            </div>
+
+            <div class="form-row">
+              <label>Email (optional)</label>
+              <input type="email" id="email" placeholder="Enter your email" />
+            </div>
+
+            <div class="form-row">
+              <label>Message</label>
+              <textarea id="message" rows="5" placeholder="Example: Cement, Sand, Steel, Bricks..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn full">Send on WhatsApp</button>
+            <p class="note">This will open WhatsApp with your message ready.</p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Map -->
+      <div class="map-card reveal">
+        <div class="map-head">
+          <h3>Find Us on Map</h3>
+          <p>Industrial Area, Sujangarh, Churu, Rajasthan:-331507</p>
+        </div>
+
+        <iframe title="King Kingdom Location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Industrial%20Area%20Sujangarh%20Churu%20Rajasthan%20331507&output=embed">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>King Kingdom</h3>
+        <p>All Types of Building Materials Supply</p>
+        <p class="muted">
+          📍 Industrial Area, Sujangarh, Churu, Rajasthan:-331507
+        </p>
+      </div>
+
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#materials">Materials</a></li>
+          <li><a href="#why">Why Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Contact</h4>
+        <p>📞 <a href="tel:+917734920728">+91 7734920728</a></p>
+        <p>✉ <a href="mailto:kk5912618@gmail.com"> kk5912618@gmail.com</a></p>
+        <p>👤 Krishan Kumar Sharma</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© <span id="year"></span> King Kingdom. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp -->
+  <a class="wa-float" href="https://wa.me/917734920728" target="_blank" aria-label="WhatsApp">
+    💬
+  </a>
+
+  <!-- To Top -->
+  <a href="#top" class="to-top" id="toTop" aria-label="Back to top">↑</a>
+
+  <script src="script.js"></script>
 </body>
-  </html>
+
+</html>
